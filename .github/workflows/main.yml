@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "GitHub Repo Update "
-          to: imtharvesh@gmail.com
+          to: imtharvesh@gmail.com, tharvesh.muhaideen@stackbill.com
           from:  "GitHub Actions <${{ secrets.EMAIL_USERNAME }}>"
           body: |
             A change was made to your repository.
